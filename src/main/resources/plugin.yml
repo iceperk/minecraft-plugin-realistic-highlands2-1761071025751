@@ -1,0 +1,17 @@
+name: RealisticHighlands2
+version: 1.0
+main: com.realistichighlands2.RealisticHighlands2
+api-version: 1.21
+author: TwojaNazwa
+description: Tworzy piękne, realistyczne krajobrazy z ogromnymi górami, głębokimi dolinami, rzekami i naturalnymi jeziorami.
+
+commands:
+  generaterealland:
+    description: Generuje realistyczny teren
+    permission: realistichighlands.generate
+    usage: /generaterealland
+
+permissions:
+  realistichighlands.generate:
+    description: Permission for generaterealland command
+    default: op
